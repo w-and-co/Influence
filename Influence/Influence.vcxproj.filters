@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8e9c54cc-cee2-47c0-bd69-0c4a2054a57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary">
+      <UniqueIdentifier>{324e5348-944a-4d6e-b58d-0fd82aa7ae7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials">
+      <UniqueIdentifier>{839fd2f2-cf51-4543-ae57-3aacd53cb3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Wood">
+      <UniqueIdentifier>{68fd0fa0-ead1-4a56-9065-d7ffb6da30ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,10 +33,22 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Core\Auxiliary\Matherials</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood.cpp">
+      <Filter>Core\Auxiliary\Matherials\Wood</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Core\Auxiliary\Matherials</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood.h">
+      <Filter>Core\Auxiliary\Matherials\Wood</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
