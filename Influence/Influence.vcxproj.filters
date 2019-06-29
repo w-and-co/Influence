@@ -67,6 +67,15 @@
     <Filter Include="Core\Auxiliary\Matherials\Rock\Granite">
       <UniqueIdentifier>{0a62882f-accb-4ffb-a402-a55bc4253ad7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Specifications\IMeasurable">
+      <UniqueIdentifier>{d4445661-7907-43b1-93a4-959329356467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Specifications\IWeighable">
+      <UniqueIdentifier>{941a003e-1daa-4eb8-9dbf-13a110b29404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Specifications\IDensable">
+      <UniqueIdentifier>{c5ab585f-8230-46bc-8c5f-bb0e78c0c07b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -111,6 +120,15 @@
     <ClCompile Include="Granite.cpp">
       <Filter>Core\Auxiliary\Matherials\Rock\Granite</Filter>
     </ClCompile>
+    <ClCompile Include="IWeighable.cpp">
+      <Filter>Core\Specifications\IWeighable</Filter>
+    </ClCompile>
+    <ClCompile Include="IMeasurable.cpp">
+      <Filter>Core\Specifications\IMeasurable</Filter>
+    </ClCompile>
+    <ClCompile Include="IDensable.cpp">
+      <Filter>Core\Specifications\IDensable</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -137,14 +155,8 @@
     <ClInclude Include="IThing.h">
       <Filter>Core\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="IWeighable.h">
-      <Filter>Core\Specifications</Filter>
-    </ClInclude>
     <ClInclude Include="PhysicsData.h">
       <Filter>Core\Specifications\Physics\PhysicsData</Filter>
-    </ClInclude>
-    <ClInclude Include="IMeasurable.h">
-      <Filter>Core\Specifications</Filter>
     </ClInclude>
     <ClInclude Include="ITextural.h">
       <Filter>Core\Specifications\ITextural</Filter>
@@ -157,6 +169,15 @@
     </ClInclude>
     <ClInclude Include="Granite.h">
       <Filter>Core\Auxiliary\Matherials\Rock\Granite</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeasurable.h">
+      <Filter>Core\Specifications\IMeasurable</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeighable.h">
+      <Filter>Core\Specifications\IWeighable</Filter>
+    </ClInclude>
+    <ClInclude Include="IDensable.h">
+      <Filter>Core\Specifications\IDensable</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

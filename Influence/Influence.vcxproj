@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,7 +126,10 @@
   <ItemGroup>
     <ClCompile Include="Birch.cpp" />
     <ClCompile Include="Granite.cpp" />
+    <ClCompile Include="IDensable.cpp" />
+    <ClCompile Include="IMeasurable.cpp" />
     <ClCompile Include="ITextural.cpp" />
+    <ClCompile Include="IWeighable.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Oak.cpp" />
@@ -141,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Birch.h" />
     <ClInclude Include="Granite.h" />
+    <ClInclude Include="IDensable.h" />
     <ClInclude Include="IMeasurable.h" />
     <ClInclude Include="ITextural.h" />
     <ClInclude Include="PhysicsData.h" />
