@@ -37,6 +37,15 @@
     <Filter Include="Core\Auxiliary\Matherials\Wood\Pine">
       <UniqueIdentifier>{21fd9051-e494-40c8-8900-6bb56483f68c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Objects">
+      <UniqueIdentifier>{d8dd96bf-93ba-4674-bff7-d7d7d601769f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Objects\Inanimate">
+      <UniqueIdentifier>{65d7e47a-8651-40ac-b74e-9ebe475c084e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Specifications">
+      <UniqueIdentifier>{cf05389f-1b99-47f9-a2a2-8db93399c68b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -63,6 +72,9 @@
     <ClCompile Include="Pine.cpp">
       <Filter>Core\Auxiliary\Matherials\Wood\Pine</Filter>
     </ClCompile>
+    <ClCompile Include="IThing.cpp">
+      <Filter>Core\Objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -85,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="Pine.h">
       <Filter>Core\Auxiliary\Matherials\Wood\Pine</Filter>
+    </ClInclude>
+    <ClInclude Include="IThing.h">
+      <Filter>Core\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeighable.h">
+      <Filter>Core\Specifications</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
