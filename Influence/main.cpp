@@ -12,6 +12,8 @@ int main(int argc, char** argv)
 	cout << "Weight: " << rock->GetWeight() << endl;
 	cout << "Lenght: " << rock->GetLength() << endl;
 
+	rock->SetTexture(material);
+	cout << "Material name: " << rock->GetTexture()->GetName() << endl;
 	string command = "";
 	while (true)
 	{

@@ -57,3 +57,13 @@ void Rock::SetLength(double length)
 {
 	this->physicsData->length = length;
 }
+
+Material* Rock::GetTexture()
+{
+	return this->physicsData->material;
+}
+
+void Rock::SetTexture(Material* material)
+{
+	this->physicsData->material = material;
+}

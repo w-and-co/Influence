@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "PhysicsData.h"
 
 double PhysicsData::GetWeightInKilograms()

@@ -6,13 +6,17 @@
 
 using namespace std;
 
+#include "IThing.h"
+#include "Material.h"
+
 #include "PhysicsData.h"
 #include "IWeighable.h"
 #include "IMeasurable.h"
-#include "IThing.h"
+#include "ITextural.h"
 
 
-#include "Material.h"
+
+
 
 //Woods
 #include "Wood.h"

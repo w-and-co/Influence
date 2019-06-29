@@ -58,6 +58,9 @@
     <Filter Include="Core\Specifications\Physics\PhysicsData">
       <UniqueIdentifier>{dff3dd0f-c6a5-4d2a-b671-0e75e1e0807a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Specifications\ITextural">
+      <UniqueIdentifier>{8f4a5ed5-1f32-47ad-ab26-09a15fc91c1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="PhysicsData.cpp">
       <Filter>Core\Specifications\Physics\PhysicsData</Filter>
+    </ClCompile>
+    <ClCompile Include="ITextural.cpp">
+      <Filter>Core\Specifications\ITextural</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="IMeasurable.h">
       <Filter>Core\Specifications</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextural.h">
+      <Filter>Core\Specifications\ITextural</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

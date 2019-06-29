@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Birch.cpp" />
+    <ClCompile Include="ITextural.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Oak.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="Birch.h" />
     <ClInclude Include="IMeasurable.h" />
+    <ClInclude Include="ITextural.h" />
     <ClInclude Include="PhysicsData.h" />
     <ClInclude Include="IWeighable.h" />
     <ClInclude Include="Material.h" />

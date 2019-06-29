@@ -2,7 +2,8 @@
 class Rock:
 	public IThing, 
 	public IWeighable,
-	public IMeasurable
+	public IMeasurable,
+	public ITextural
 {
 public:
 	Rock();
@@ -20,9 +21,15 @@ public:
 	virtual double GetLength() override;
 	virtual void SetLength(double length) override;
 
+	virtual Material* GetTexture() override;
+	virtual void SetTexture(Material* material) override;
 private:
 	PhysicsData* physicsData = new PhysicsData();
 
 	
+
+	// Inherited via ITextural
+	
+
 };
 

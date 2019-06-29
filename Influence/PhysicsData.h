@@ -15,6 +15,7 @@ public:
 	double width = 0.00000000001;
 	double height = 0.00000000001;
 	double length = 0.00000000001;
+	Material* material;
 private:
 	double weight = 0.00000000001;
 };
