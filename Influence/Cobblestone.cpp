@@ -1,9 +1,9 @@
 #include "stdafx.h"
-#include "Rock.h"
+#include "Cobblestone.h"
 
 
 
-Rock::Rock()
+Cobblestone::Cobblestone()
 {
 	this->physicsData->SetWeightInKilograms(13);
 	this->physicsData->height = 3;
@@ -13,57 +13,57 @@ Rock::Rock()
 	//this->width = 3;
 }
 
-string Rock::GetName()
+string Cobblestone::GetName()
 {
-	return "Rock";
+	return "Cobblestone";
 }
 
-double Rock::GetWeight()
+double Cobblestone::GetWeight()
 {
 	return this->physicsData->GetWeightInPounds();
 }
 
-void Rock::SetWeight(double weight)
+void Cobblestone::SetWeight(double weight)
 {
 	this->physicsData->SetWeightInKilograms(weight);
 }
 
-double Rock::GetWidth()
+double Cobblestone::GetWidth()
 {
 	return this->physicsData->width;
 }
 
-void Rock::SetWidth(double width)
+void Cobblestone::SetWidth(double width)
 {
 	this->physicsData->width = width;
 }
 
-double Rock::GetHeight()
+double Cobblestone::GetHeight()
 {
 	return this->physicsData->height;
 }
 
-void Rock::SetHeight(double height)
+void Cobblestone::SetHeight(double height)
 {
 	this->physicsData->height = height;
 }
 
-double Rock::GetLength()
+double Cobblestone::GetLength()
 {
 	return this->physicsData->length;
 }
 
-void Rock::SetLength(double length)
+void Cobblestone::SetLength(double length)
 {
 	this->physicsData->length = length;
 }
 
-Material* Rock::GetTexture()
+Material* Cobblestone::GetTexture()
 {
 	return this->physicsData->material;
 }
 
-void Rock::SetTexture(Material* material)
+void Cobblestone::SetTexture(Material* material)
 {
 	this->physicsData->material = material;
 }

@@ -49,9 +49,6 @@
     <Filter Include="Core\Objects\Inanimate\Primitives">
       <UniqueIdentifier>{950c6fe3-397a-47c6-9ed0-4c4a271215be}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Objects\Inanimate\Primitives\Rock">
-      <UniqueIdentifier>{87e31dad-d705-40ff-9272-4bed760eb3c6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Core\Specifications\Physics">
       <UniqueIdentifier>{2499d1a2-85e9-4d92-964f-8b708ddc6e4d}</UniqueIdentifier>
     </Filter>
@@ -60,6 +57,9 @@
     </Filter>
     <Filter Include="Core\Specifications\ITextural">
       <UniqueIdentifier>{8f4a5ed5-1f32-47ad-ab26-09a15fc91c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Objects\Inanimate\Primitives\Cobblestone">
+      <UniqueIdentifier>{87e31dad-d705-40ff-9272-4bed760eb3c6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -90,14 +90,14 @@
     <ClCompile Include="IThing.cpp">
       <Filter>Core\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="Rock.cpp">
-      <Filter>Core\Objects\Inanimate\Primitives\Rock</Filter>
-    </ClCompile>
     <ClCompile Include="PhysicsData.cpp">
       <Filter>Core\Specifications\Physics\PhysicsData</Filter>
     </ClCompile>
     <ClCompile Include="ITextural.cpp">
       <Filter>Core\Specifications\ITextural</Filter>
+    </ClCompile>
+    <ClCompile Include="Cobblestone.cpp">
+      <Filter>Core\Objects\Inanimate\Primitives\Cobblestone</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -128,9 +128,6 @@
     <ClInclude Include="IWeighable.h">
       <Filter>Core\Specifications</Filter>
     </ClInclude>
-    <ClInclude Include="Rock.h">
-      <Filter>Core\Objects\Inanimate\Primitives\Rock</Filter>
-    </ClInclude>
     <ClInclude Include="PhysicsData.h">
       <Filter>Core\Specifications\Physics\PhysicsData</Filter>
     </ClInclude>
@@ -139,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="ITextural.h">
       <Filter>Core\Specifications\ITextural</Filter>
+    </ClInclude>
+    <ClInclude Include="Cobblestone.h">
+      <Filter>Core\Objects\Inanimate\Primitives\Cobblestone</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

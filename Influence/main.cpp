@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 	Material* material = new Birch();
 	cout << material->GetName() << endl;
 
-	Rock* rock = new Rock();
+	Cobblestone* rock = new Cobblestone();
 	cout << rock->GetWeight() << endl;
 	rock->SetWeight(14);
 	cout << "Weight: " << rock->GetWeight() << endl;
@@ -14,6 +14,8 @@ int main(int argc, char** argv)
 
 	rock->SetTexture(material);
 	cout << "Material name: " << rock->GetTexture()->GetName() << endl;
+
+
 	string command = "";
 	while (true)
 	{
