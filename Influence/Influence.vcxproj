@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Birch.cpp" />
+    <ClCompile Include="Granite.cpp" />
     <ClCompile Include="ITextural.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Material.cpp" />
@@ -132,12 +133,14 @@
     <ClCompile Include="PhysicsData.cpp" />
     <ClCompile Include="Pine.cpp" />
     <ClCompile Include="Cobblestone.cpp" />
+    <ClCompile Include="Rock.cpp" />
     <ClCompile Include="Spruce.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Wood.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Birch.h" />
+    <ClInclude Include="Granite.h" />
     <ClInclude Include="IMeasurable.h" />
     <ClInclude Include="ITextural.h" />
     <ClInclude Include="PhysicsData.h" />
@@ -147,6 +150,7 @@
     <ClInclude Include="IThing.h" />
     <ClInclude Include="Pine.h" />
     <ClInclude Include="Cobblestone.h" />
+    <ClInclude Include="Rock.h" />
     <ClInclude Include="Spruce.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Wood.h" />

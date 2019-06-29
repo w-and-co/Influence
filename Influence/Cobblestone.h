@@ -26,10 +26,5 @@ public:
 private:
 	PhysicsData* physicsData = new PhysicsData();
 
-	
-
-	// Inherited via ITextural
-	
-
 };
 

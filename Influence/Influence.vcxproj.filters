@@ -61,6 +61,12 @@
     <Filter Include="Core\Objects\Inanimate\Primitives\Cobblestone">
       <UniqueIdentifier>{87e31dad-d705-40ff-9272-4bed760eb3c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Rock">
+      <UniqueIdentifier>{0acacdbb-0d2e-485c-9c49-bf0362bb2bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Rock\Granite">
+      <UniqueIdentifier>{0a62882f-accb-4ffb-a402-a55bc4253ad7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -98,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="Cobblestone.cpp">
       <Filter>Core\Objects\Inanimate\Primitives\Cobblestone</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Core\Auxiliary\Matherials\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Granite.cpp">
+      <Filter>Core\Auxiliary\Matherials\Rock\Granite</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +151,12 @@
     </ClInclude>
     <ClInclude Include="Cobblestone.h">
       <Filter>Core\Objects\Inanimate\Primitives\Cobblestone</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Core\Auxiliary\Matherials\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="Granite.h">
+      <Filter>Core\Auxiliary\Matherials\Rock\Granite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

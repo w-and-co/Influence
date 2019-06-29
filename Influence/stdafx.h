@@ -18,12 +18,16 @@ using namespace std;
 
 
 
-//Woods
+//Woods Materials
 #include "Wood.h"
 #include "Birch.h"
 #include "Oak.h"
 #include "Pine.h"
 #include "Spruce.h"
+
+//Rock Materials
+#include "Rock.h"
+#include "Granite.h"
 
 //Inanimates
 #include "Cobblestone.h"
