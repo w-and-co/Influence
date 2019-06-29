@@ -20,7 +20,7 @@ string Cobblestone::GetName()
 
 double Cobblestone::GetWeight()
 {
-	return this->physicsData->GetWeightInPounds();
+	return this->physicsData->GetWeightInKilograms();
 }
 
 void Cobblestone::SetWeight(double weight)
@@ -67,3 +67,9 @@ void Cobblestone::SetTexture(Material* material)
 {
 	this->physicsData->material = material;
 }
+
+double Cobblestone::GetDensity()
+{
+	return this->physicsData->GetDensity();
+}
+

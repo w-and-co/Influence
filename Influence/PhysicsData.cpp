@@ -3,6 +3,9 @@
 
 double PhysicsData::GetWeightInKilograms()
 {
+	double volume = this->width* this->height* this->length;
+	this->weight = volume * this->GetDensity();
+	//return 
 	return this->weight;
 }
 
@@ -24,9 +27,4 @@ void PhysicsData::SetWeightInPounds(double weight)
 double PhysicsData::GetDensity()
 {
 	return this->material->GetDensity();
-}
-
-void PhysicsData::SetDensity(double density)
-{
-	this->material->SetDensity(density);
 }

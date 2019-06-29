@@ -3,17 +3,19 @@
 int main(int argc, char** argv)
 {
 
-	Material* material = new Birch();
+	Material* material = new Granite();
 	cout << material->GetName() << endl;
 
 	Cobblestone* rock = new Cobblestone();
-	cout << rock->GetWeight() << endl;
-	rock->SetWeight(14);
+	rock->SetTexture(material);
+	
+
+
 	cout << "Weight: " << rock->GetWeight() << endl;
 	cout << "Lenght: " << rock->GetLength() << endl;
 
-	rock->SetTexture(material);
 	cout << "Material name: " << rock->GetTexture()->GetName() << endl;
+	cout << "Cobblestone density: " << rock->GetDensity() << endl;
 
 
 	string command = "";

@@ -3,7 +3,8 @@ class Cobblestone :
 	public IThing, 
 	public IWeighable,
 	public IMeasurable,
-	public ITextural
+	public ITextural,
+	public IDensable
 {
 public:
 	Cobblestone();
@@ -23,8 +24,11 @@ public:
 
 	virtual Material* GetTexture() override;
 	virtual void SetTexture(Material* material) override;
+
+	virtual double GetDensity() override;
 private:
 	PhysicsData* physicsData = new PhysicsData();
+
 
 };
 

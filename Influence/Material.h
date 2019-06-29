@@ -10,7 +10,6 @@ public:
 	string GetName();
 
 	virtual double GetDensity() override;
-	virtual void SetDensity(double density) override;
 
 protected:
 	string name;

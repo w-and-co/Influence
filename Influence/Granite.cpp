@@ -5,4 +5,5 @@
 Granite::Granite()
 {
 	this->name = "Granite";
+	this->physicsDensityData->SetDensity(2600);
 }
