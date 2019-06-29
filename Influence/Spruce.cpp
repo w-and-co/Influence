@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Spruce.h"
 
 Spruce::Spruce() {

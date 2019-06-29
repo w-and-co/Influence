@@ -1,9 +1,4 @@
 #include "stdafx.h"
-#include "Material.h"
-#include "Wood.h"
-#include "Birch.h"
-#include "IThing.h"
-#include "IWeighable.h"
 
 int main(int argc, char** argv)
 {
