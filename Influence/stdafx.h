@@ -6,14 +6,18 @@
 
 using namespace std;
 
+#include "IWeighable.h"
+#include "IMeasurable.h"
+#include "IDensable.h"
+#include "PhysicsDensityData.h"
+
+
 #include "IThing.h"
 #include "Material.h"
 
 #include "PhysicsData.h"
-#include "IWeighable.h"
-#include "IMeasurable.h"
-#include "ITextural.h"
 
+#include "ITextural.h"
 
 
 

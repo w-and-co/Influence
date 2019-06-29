@@ -20,3 +20,13 @@ void PhysicsData::SetWeightInPounds(double weight)
 {
 	this->weight = weight / 2.2046;
 }
+
+double PhysicsData::GetDensity()
+{
+	return this->material->GetDensity();
+}
+
+void PhysicsData::SetDensity(double density)
+{
+	this->material->SetDensity(density);
+}

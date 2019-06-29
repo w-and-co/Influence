@@ -76,6 +76,9 @@
     <Filter Include="Core\Specifications\IDensable">
       <UniqueIdentifier>{c5ab585f-8230-46bc-8c5f-bb0e78c0c07b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Specifications\Physics\PhysicsDensityData">
+      <UniqueIdentifier>{1425b142-7f58-4bb8-8181-1d93bbbcc5d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -129,6 +132,9 @@
     <ClCompile Include="IDensable.cpp">
       <Filter>Core\Specifications\IDensable</Filter>
     </ClCompile>
+    <ClCompile Include="PhysicsDensityData.cpp">
+      <Filter>Core\Specifications\Physics\PhysicsDensityData</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -178,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="IDensable.h">
       <Filter>Core\Specifications\IDensable</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsDensityData.h">
+      <Filter>Core\Specifications\Physics\PhysicsDensityData</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

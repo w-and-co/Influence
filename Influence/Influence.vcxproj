@@ -135,6 +135,7 @@
     <ClCompile Include="Oak.cpp" />
     <ClCompile Include="IThing.cpp" />
     <ClCompile Include="PhysicsData.cpp" />
+    <ClCompile Include="PhysicsDensityData.cpp" />
     <ClCompile Include="Pine.cpp" />
     <ClCompile Include="Cobblestone.cpp" />
     <ClCompile Include="Rock.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="Material.h" />
     <ClInclude Include="Oak.h" />
     <ClInclude Include="IThing.h" />
+    <ClInclude Include="PhysicsDensityData.h" />
     <ClInclude Include="Pine.h" />
     <ClInclude Include="Cobblestone.h" />
     <ClInclude Include="Rock.h" />
