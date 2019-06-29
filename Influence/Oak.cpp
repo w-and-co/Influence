@@ -3,4 +3,5 @@
 
 Oak::Oak() {
 	this->name = "Oak";
+	this->physicsDensityData->SetDensity(690);
 }

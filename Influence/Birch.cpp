@@ -3,4 +3,5 @@
 
 Birch::Birch() {
 	this->name = "Birch";
+	this->physicsDensityData->SetDensity(650);
 }

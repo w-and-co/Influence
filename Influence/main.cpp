@@ -3,7 +3,7 @@
 int main(int argc, char** argv)
 {
 
-	Material* material = new Granite();
+	Material* material = new Oak();
 	cout << material->GetName() << endl;
 
 	Cobblestone* rock = new Cobblestone();

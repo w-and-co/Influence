@@ -3,4 +3,5 @@
 
 Pine::Pine() {
 	this->name = "Pine";
+	this->physicsDensityData->SetDensity(470);
 }

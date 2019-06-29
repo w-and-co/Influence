@@ -3,4 +3,5 @@
 
 Spruce::Spruce() {
 	this->name = "Spruce";
+	this->physicsDensityData->SetDensity(430);
 }
