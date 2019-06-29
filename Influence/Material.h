@@ -5,7 +5,7 @@ class Material
 {
 public:
 	Material();
-	virtual string GetName();
+	string GetName();
 
 protected:
 	string name;

@@ -1,11 +1,12 @@
 #include "stdafx.h"
 #include "Material.h"
 #include "Wood.h"
+#include "Birch.h"
 
 int main(int argc, char** argv)
 {
 
-	Material* material = new Wood();
+	Material* material = new Birch();
 	cout << material->GetName() << endl;
 
 	string command = "";

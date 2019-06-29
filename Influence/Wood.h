@@ -6,7 +6,6 @@ class Wood: public Material
 {
 public:
 	Wood();
-	virtual string GetName();
 
 };
 

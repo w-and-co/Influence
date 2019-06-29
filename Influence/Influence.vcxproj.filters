@@ -25,6 +25,18 @@
     <Filter Include="Core\Auxiliary\Matherials\Wood">
       <UniqueIdentifier>{68fd0fa0-ead1-4a56-9065-d7ffb6da30ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Wood\Birch">
+      <UniqueIdentifier>{11e644e3-19dc-436a-b0cb-8e8158d89317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Wood\Oak">
+      <UniqueIdentifier>{b1bc8372-6155-487c-b703-57f33e39a02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Wood\Spruce">
+      <UniqueIdentifier>{ce74f0db-12e8-4ae3-96ee-7f35ba3f4193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Auxiliary\Matherials\Wood\Pine">
+      <UniqueIdentifier>{21fd9051-e494-40c8-8900-6bb56483f68c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +51,18 @@
     <ClCompile Include="Wood.cpp">
       <Filter>Core\Auxiliary\Matherials\Wood</Filter>
     </ClCompile>
+    <ClCompile Include="Birch.cpp">
+      <Filter>Core\Auxiliary\Matherials\Wood\Birch</Filter>
+    </ClCompile>
+    <ClCompile Include="Oak.cpp">
+      <Filter>Core\Auxiliary\Matherials\Wood\Oak</Filter>
+    </ClCompile>
+    <ClCompile Include="Spruce.cpp">
+      <Filter>Core\Auxiliary\Matherials\Wood\Spruce</Filter>
+    </ClCompile>
+    <ClCompile Include="Pine.cpp">
+      <Filter>Core\Auxiliary\Matherials\Wood\Pine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -49,6 +73,18 @@
     </ClInclude>
     <ClInclude Include="Wood.h">
       <Filter>Core\Auxiliary\Matherials\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="Birch.h">
+      <Filter>Core\Auxiliary\Matherials\Wood\Birch</Filter>
+    </ClInclude>
+    <ClInclude Include="Oak.h">
+      <Filter>Core\Auxiliary\Matherials\Wood\Oak</Filter>
+    </ClInclude>
+    <ClInclude Include="Spruce.h">
+      <Filter>Core\Auxiliary\Matherials\Wood\Spruce</Filter>
+    </ClInclude>
+    <ClInclude Include="Pine.h">
+      <Filter>Core\Auxiliary\Matherials\Wood\Pine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
