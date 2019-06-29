@@ -9,7 +9,8 @@ int main(int argc, char** argv)
 	Rock* rock = new Rock();
 	cout << rock->GetWeight() << endl;
 	rock->SetWeight(14);
-	cout << rock->GetWeight() << endl;
+	cout << "Weight: " << rock->GetWeight() << endl;
+	cout << "Lenght: " << rock->GetLength() << endl;
 
 	string command = "";
 	while (true)

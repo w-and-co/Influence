@@ -1,5 +1,9 @@
 #pragma once
 
+//Дальше стоит разделить класс на характеристики, 
+//а этот класс сделать Фасадом или Посредником.
+//Но это сейчас не в приоритете.
+
 class PhysicsData {
 public:
 	double GetWeightInKilograms();

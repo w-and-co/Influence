@@ -128,5 +128,8 @@
     <ClInclude Include="PhysicsData.h">
       <Filter>Core\Specifications\Physics\PhysicsData</Filter>
     </ClInclude>
+    <ClInclude Include="IMeasurable.h">
+      <Filter>Core\Specifications</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

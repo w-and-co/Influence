@@ -8,6 +8,7 @@ using namespace std;
 
 #include "PhysicsData.h"
 #include "IWeighable.h"
+#include "IMeasurable.h"
 #include "IThing.h"
 
 

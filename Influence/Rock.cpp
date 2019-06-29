@@ -27,3 +27,33 @@ void Rock::SetWeight(double weight)
 {
 	this->physicsData->SetWeightInKilograms(weight);
 }
+
+double Rock::GetWidth()
+{
+	return this->physicsData->width;
+}
+
+void Rock::SetWidth(double width)
+{
+	this->physicsData->width = width;
+}
+
+double Rock::GetHeight()
+{
+	return this->physicsData->height;
+}
+
+void Rock::SetHeight(double height)
+{
+	this->physicsData->height = height;
+}
+
+double Rock::GetLength()
+{
+	return this->physicsData->length;
+}
+
+void Rock::SetLength(double length)
+{
+	this->physicsData->length = length;
+}

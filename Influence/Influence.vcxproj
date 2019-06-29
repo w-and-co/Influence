@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Birch.h" />
+    <ClInclude Include="IMeasurable.h" />
     <ClInclude Include="PhysicsData.h" />
     <ClInclude Include="IWeighable.h" />
     <ClInclude Include="Material.h" />
