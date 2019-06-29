@@ -128,18 +128,22 @@
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Oak.cpp" />
     <ClCompile Include="IThing.cpp" />
+    <ClCompile Include="PhysicsData.cpp" />
     <ClCompile Include="Pine.cpp" />
+    <ClCompile Include="Rock.cpp" />
     <ClCompile Include="Spruce.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Wood.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Birch.h" />
+    <ClInclude Include="PhysicsData.h" />
     <ClInclude Include="IWeighable.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Oak.h" />
     <ClInclude Include="IThing.h" />
     <ClInclude Include="Pine.h" />
+    <ClInclude Include="Rock.h" />
     <ClInclude Include="Spruce.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Wood.h" />

@@ -1,9 +1,11 @@
 #pragma once
 
-class Material
+class Material:
+	public IThing
 {
 public:
 	Material();
+	~Material();
 	string GetName();
 
 protected:

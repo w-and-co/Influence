@@ -6,7 +6,10 @@ int main(int argc, char** argv)
 	Material* material = new Birch();
 	cout << material->GetName() << endl;
 
-	
+	Rock* rock = new Rock();
+	cout << rock->GetWeight() << endl;
+	rock->SetWeight(14);
+	cout << rock->GetWeight() << endl;
 
 	string command = "";
 	while (true)

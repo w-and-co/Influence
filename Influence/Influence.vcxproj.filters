@@ -46,6 +46,18 @@
     <Filter Include="Core\Specifications">
       <UniqueIdentifier>{cf05389f-1b99-47f9-a2a2-8db93399c68b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Objects\Inanimate\Primitives">
+      <UniqueIdentifier>{950c6fe3-397a-47c6-9ed0-4c4a271215be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Objects\Inanimate\Primitives\Rock">
+      <UniqueIdentifier>{87e31dad-d705-40ff-9272-4bed760eb3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Specifications\Physics">
+      <UniqueIdentifier>{2499d1a2-85e9-4d92-964f-8b708ddc6e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Specifications\Physics\PhysicsData">
+      <UniqueIdentifier>{dff3dd0f-c6a5-4d2a-b671-0e75e1e0807a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -75,6 +87,12 @@
     <ClCompile Include="IThing.cpp">
       <Filter>Core\Objects</Filter>
     </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Core\Objects\Inanimate\Primitives\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsData.cpp">
+      <Filter>Core\Specifications\Physics\PhysicsData</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -103,6 +121,12 @@
     </ClInclude>
     <ClInclude Include="IWeighable.h">
       <Filter>Core\Specifications</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Core\Objects\Inanimate\Primitives\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsData.h">
+      <Filter>Core\Specifications\Physics\PhysicsData</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

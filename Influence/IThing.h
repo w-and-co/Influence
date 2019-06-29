@@ -3,10 +3,12 @@
 
 
 class IThing
-	: public IWeighable
 {
+
+public:
 	IThing();
-	virtual ~IThing() = 0;
+
+	virtual string GetName() = 0;
 };
 
 

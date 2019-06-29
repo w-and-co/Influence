@@ -1,9 +1,9 @@
 #pragma once
 class IWeighable {
-	IWeighable();
-	virtual ~IWeighable() = 0;
+public:
+	IWeighable() {};
 
-	virtual void GetWeight() = 0;
+	virtual double GetWeight() = 0;
 	virtual void SetWeight(double weight) = 0;
 
 };
